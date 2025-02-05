@@ -9,7 +9,7 @@ const Input = ({ title, ...props }: InputProps) => {
   return (
     <BoxInput>
       {title && <TitleInput>{title}</TitleInput>}
-      <InputAntd {...props}/>
+      <InputAntd {...props} />
     </BoxInput>
   );
 };
